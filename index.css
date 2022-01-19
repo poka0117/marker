@@ -1,0 +1,13 @@
+div{
+    text-align: center;
+}
+
+.marker1{
+    background-color: yellow;
+}
+/* 方向指定なしなので、デフォルトの上から下
+transparent 50%で上から50％分透明
+yellow 50%で下50％が黄色 */
+.marker2{
+    background:linear-gradient(transparent 50%, yellow 50%);
+}
